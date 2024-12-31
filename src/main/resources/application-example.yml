@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active:
+  application:
+    name: temp-sensor
+  mqtt:
+    host:
+    port:
+    username:
+    password:
+    generalTopic:
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: none
+
+server:
+  port: 8080
